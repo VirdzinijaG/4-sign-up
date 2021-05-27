@@ -8,7 +8,12 @@ margin-top: 100px;
 margin-left: calc(50% - 400px);
 }
 div{
-    width: 50%;
+    width: 40%;
     float: left;
 background-color: yellow;
+}
+div:last-of-type{
+    width: 60%;
+    float: left;
+    background-color: pink;
 }
