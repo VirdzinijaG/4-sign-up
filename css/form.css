@@ -1,0 +1,30 @@
+.form{
+display: flex;
+flex-direction: column;
+gap: 40px;
+width: 100%;
+}
+.form-row{
+    display: inline-block;
+    width: 100%;
+}
+}
+.form-row > label {
+    display: inline-block;
+    width: 100%;
+}
+
+.form-row > input { 
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+}
+.form-row > button {
+  
+}
+.form-row > span {
+  
+}
+.form-row > a {
+    
+}

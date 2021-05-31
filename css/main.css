@@ -1,4 +1,15 @@
-body {}
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+
+}
 
 main {
     display: inline-block;
@@ -10,6 +21,7 @@ main {
 .left-column {
     width: 40%;
     float: left;
+    padding: 40px;
     background-color: yellow;
 }
 
@@ -17,24 +29,23 @@ main {
     
 }
 .bottom-links > a {
-    background-color: red;
+    
 }
 .bottom-links > span {
-    background-color: blue;
+    
 }
 
-main.title {
+.main-title {
     font-size: 60px;
 }
 
 .right-column {
     width: 60%;
     float: left;
+    padding: 60px;
     background-color: pink;
 }
 .close{
 
 }
-.form{
 
-}
