@@ -8,7 +8,7 @@ body * {
 }
 
 body {
-background-color: #76BED4;
+    background-color: #76BED4;
 }
 
 main {
@@ -55,9 +55,25 @@ main {
     width: 60%;
     float: left;
     padding: 60px;
+    position: relative;
     background-color: white;
 }
 .close{
+    background-color: red;
+    display: inline-block;
+    line-height: 54px;
+    text-align: center;
+    font-size: 30px;
+/*margin-top: -60px; margin-left: 360px;  galima butu ir taip atstumti i krasta
+teigiama reiksme atsistumti nuo kazko, neigiama  - prisitraukti*/
+    width: 60px;
+    height: 60px;
+/* widht ir height po 60px, nes tevinio elemento (.righht-column) padding 60px*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    
 
 }
 
