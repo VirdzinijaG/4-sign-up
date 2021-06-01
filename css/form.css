@@ -1,30 +1,88 @@
-.form{
-display: flex;
-flex-direction: column;
-gap: 40px;
-width: 100%;
-}
-.form-row{
-    display: inline-block;
-    width: 100%;
-}
-}
-.form-row > label {
-    display: inline-block;
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     width: 100%;
 }
 
-.form-row > input { 
-    display: inline-block;
+.form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     width: 100%;
+}
+
+.form-row.flex-row {
+    flex-direction: row;
+    gap: 25px;
+
+    <!-- galima rasyti ir last-of-type, jei daugiau eiluciu nebutu -->
+}
+
+.form-row > label {
+    text-transform: uppercase;
+    color: #C4C4C4;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.form-row > input {
+    line-height: 40px;
     font-size: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #C4C4C4;
+
+    <!-- galima rasyti ir taip border: none;
+    ir aprasyti border-bottom rezultatas bus toks pats -->
+}
+
+.form-row > input::placeholder {
+    color: #C4C4C4;
+    font-size: 15px;
+    font-style: italic;
 }
 .form-row > button {
-  
+    background:#0063DA;
+    background: linear-gradient(45deg,#2948D8 0%,#0063DA 100%);
+    color: white;
+    line-height: 40px;
+    font-size: 20px;
+    padding-left: 50px ;
+    padding-right: 50px ;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 8px 0 lightgrey ;
+    
+    <!-- border-radius dyis rasomas trumpiausiops puses krastines dydzio
+    siuo atveju buvo pagal line-height: 40px; -->
+
+}
+
+.form-row > button:hover {
+box-shadow: 0 4px 10px 0 grey;
+cursor: pointer;
 }
 .form-row > span {
-  
+    line-height: 40px;
+    font-size: 18px;
+
+   <!--  margin-left: 10px;
+    margin-right: 10px; galima taip rasyti atstumus, bet siuo atveju atstumas parasyta 
+    .form-row.flex-row gap: 25px; -->
 }
+
 .form-row > a {
-    
+    color: #0063DA;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.form-row > a:hover {
+  text-decoration: underline;
+
+    <!-- :hover yra pseudo selektorius, su kuria galima sukurti efektus, kurie pasirodo uzejus su peles zymekliu narsykleje ant elemento -->
+
 }
