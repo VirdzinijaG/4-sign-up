@@ -60,7 +60,7 @@ main {
     background-color: white;
 }
 .close{
-    background-color: red;
+    color: lightgrey;
     display: inline-block;
     line-height: 54px;
     text-align: center;
@@ -73,8 +73,5 @@ teigiama reiksme atsistumti nuo kazko, neigiama  - prisitraukti*/
     position: absolute;
     top: 0;
     right: 0;
-    
-    
-
 }
 

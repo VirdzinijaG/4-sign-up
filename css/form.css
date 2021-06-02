@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 40px;
     width: 100%;
-    background-color: yellow;
+    
 }
 
 .form-row {
@@ -35,7 +35,7 @@
     border-left: none;
     border-right: none;
     border-bottom: 1px solid #C4C4C4;
-    background-color: yellow;
+    
 
     /* galima rasyti ir taip border: none;
     ir aprasyti border-bottom rezultatas bus toks pats */
