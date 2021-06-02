@@ -70,10 +70,12 @@ cursor: pointer;
 .form-row > span {
     line-height: 40px;
     font-size: 18px;
+   margin-right: -15px;
 
    /*  margin-left: 10px;
     margin-right: 10px; galima taip rasyti atstumus, bet siuo atveju atstumas parasyta 
-    .form-row.flex-row gap: 25px; */
+    .form-row.flex-row gap: 25px;
+    margin-right: -15px prie or pritrauke sign in; */
 }
 
 .form-row > a {
